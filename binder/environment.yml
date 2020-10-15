@@ -1,0 +1,17 @@
+name: galdyncourse
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - ipython
+  - jupyter
+  - numpy
+  - scipy
+  - matplotlib
+  - pyqt
+  - pandas
+  - pip
+  - conda-forge::astropy>=2
+  - pip:
+    - astroquery
+    - git+git://github.com/jobovy/galpy.git#egg=galpy
